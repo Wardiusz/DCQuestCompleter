@@ -1,0 +1,182 @@
+QLabel#searchLabel
+QLabel#timeLabel {
+    font-weight: bold;
+}
+
+QLabel#runningHeader,
+QLabel#firstTabName {
+    font-size: 16px;
+    font-weight: bold;
+    background: transparent;
+}
+
+QLabel#appTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+QLabel#subTabName {
+    color: #888;
+    margin-bottom: 4px;
+}
+
+QLabel#nameLabel,
+QLabel#pathLabel,
+QLabel#exeLabel {
+    font-weight: bold;
+    background: transparent;
+}
+
+QPushButton#okBtn,
+QPushButton#cancelBtn {
+    padding: 6px 20px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton#okBtn {
+    background: #6e80d3;
+    font-weight: bold;
+}
+
+QPushButton#okBtn:hover {
+    background: #5664A6;
+}
+
+QPushButton#cancelBtn {
+    background: #9e9e9e;
+}
+
+QPushButton#cancelBtn:hover {
+    background: #757575;
+}
+
+QTimeEdit#timeEdit {
+    padding: 6px;
+    font-size: 16px;
+}
+
+QComboBox#combo {
+    padding: 5px;
+}
+
+QLabel#appTitle {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+QLabel#runningHeader,
+QLabel#firstTabName {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+QLabel#subTabName  {
+    background: transparent;
+    color: #888;
+    margin-bottom: 4px;
+}
+
+QLabel#searchLabel {
+    font-weight: bold;
+}
+
+QTabBar::tab {
+    padding: 8px 20px;
+    margin-right: 2px;
+    border-bottom: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+QLineEdit {
+    padding: 6px;
+    border-radius: 4px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #6e80d3;
+}
+
+QTableView {
+    border-radius: 4px;
+}
+QTableView::item {
+    padding: 5px;
+}
+
+QHeaderView::section {
+    padding: 8px;
+    border: none;
+    border-bottom: 2px solid #6e80d3;
+    font-weight: bold;
+}
+
+QTableView#runningAppsTable
+QHeaderView::section {
+    border-bottom: 2px solid #FF9800;
+}
+
+QWidget#customFormGroup {
+    border-radius: 6px;
+    padding: 4px;
+}
+
+QPushButton#refreshBtn,
+QPushButton#customAddBtn,
+QPushButton#setTimerBtn {
+    padding: 8px 20px;
+    background: #6e80d3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton#refreshBtn:hover,
+QPushButton#customAddBtn:hover,
+QPushButton#setTimerBtn:hover {
+    background: #5664A6;
+
+}
+
+QPushButton#refreshBtn:pressed,
+QPushButton#customAddBtn:pressed {
+    background: #49558C;
+}
+
+QPushButton#customBrowseBtn {
+    padding: 6px 12px;
+    background: #9e9e9e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+QPushButton#customBrowseBtn:hover {
+    background: #757575;
+}
+
+QPushButton#stopAllBtn {
+    padding: 8px 20px;
+    background: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+QPushButton#stopAllBtn:hover {
+    background: #da190b;
+}
+
+QPushButton#stopAllBtn:pressed {
+    background: #c41400;
+}
+
+QLabel#statusLabel {
+    padding: 8px;
+    border-radius: 4px;
+}

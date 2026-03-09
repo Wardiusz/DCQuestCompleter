@@ -1,0 +1,70 @@
+QWidget {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+QLabel {
+    color: #333333;
+}
+
+QTabWidget::pane {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+}
+
+QTabBar::tab {
+    background: #e0e0e0;
+    color: #333333;
+    border: 1px solid #cccccc;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+QTabBar::tab:hover {
+    background: #f0f0f0;
+}
+
+QLineEdit {
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    color: #333333;
+}
+
+QTableView {
+    gridline-color: #cccccc;
+    border: 1px solid #cccccc;
+    background: #ffffff;
+    color: #333333;
+    alternate-background-color: #f9f9f9;
+}
+
+QTableView::item:selected {
+    background: #e3f2fd;
+    color: #333333;
+}
+
+QHeaderView::section {
+    background: #f5f5f5;
+    color: #333333;
+}
+
+QTableView#runningAppsTable::item:selected {
+    background: #FFF4E0;
+}
+
+QTableView#gamesTable::item:selected {
+    background: #DEE4FC;
+}
+
+QWidget#customFormGroup {
+    background: #f0f0f0;
+    border: 1px solid #cccccc;
+}
+
+QLabel#statusLabel {
+    background: #f5f5f5;
+    border: 1px solid #cccccc;
+}
