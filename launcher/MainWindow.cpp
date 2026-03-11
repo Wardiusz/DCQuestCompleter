@@ -196,7 +196,7 @@ auto MainWindow::setupUi() -> void {
     connect(m_search, &QLineEdit::textChanged, m_proxy, &QSortFilterProxyModel::setFilterFixedString);
 
     resize(1000, 700);
-    setWindowTitle("Quest Completer");
+    setWindowTitle("DCQuestCompleter");
 
     m_refreshBtn->setObjectName("refreshBtn");
     m_customBrowseBtn->setObjectName("customBrowseBtn");
