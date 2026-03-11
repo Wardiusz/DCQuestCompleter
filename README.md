@@ -50,9 +50,9 @@ Just delete whole folder which you previously downloaded and delete folder from 
 4. When stopped by any means, the temporary files are automatically terminated
 
 ## 💻Usage
-1. Launch DCQuestCompleter with libraries and `runner.exe` inside the same folder.
+1. Launch `DCQuestCompleter` with libraries and `runner.exe` inside the same folder.
 2. From `Game Browser` tab start any game you want by clicking `Start` button (for example Overwatch).
-3. Dummy game will start/appear and will be added to 'Running Games' tab.
+3. Dummy game will start/appear and will be added to `Running Games` tab.
 4. In `Running Games` tab click `Stop` to kill the dummy game.
 
 ## 🧰 Tech Stack
