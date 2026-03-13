@@ -23,6 +23,11 @@
   <img src="public/screenshot.png" alt="DCQuestCompleter app screenshot">
 </p>
 
+## 🎯 Future plans
+- Add Linux support
+- Make GUI more visual appealing
+- Add new Discord application detection 
+
 ## ✨ Features
 
 - Automatic game list fetching from Discord API
@@ -37,7 +42,7 @@
 ### Windows
 Download the latest pre-built version from the [GitHub Releases](https://github.com/Wardiusz/DCQuestCompleter/releases) page.
 
-## 📦 Uninstallation
+## 🗑 Uninstallation
 
 ### Windows
 Just delete whole folder which you previously downloaded and delete folder from `%LOCALAPPDATA%\Temp\DCQuestCompleter`.
@@ -57,9 +62,9 @@ Just delete whole folder which you previously downloaded and delete folder from 
 
 ## 🧰 Tech Stack
 
-- C++ 20
-- Qt 6.9.3
-- CMake 3.16
+- C++
+- Qt
+- CMake
 
 ## ⚠️ Disclaimer
 
@@ -74,9 +79,7 @@ Pull requests are welcome! Feel free to open issues or submit pull requests.
 MIT License  
 See `LICENSE` file for details.
 
-## Acknowledgements
+## 🤍 Acknowledgements
 Thanks to [Discord](https://discord.com/) for pushing me to install several games over funking 50GB+ in size each only to play them for like 15 minutes, then uninstall just to get the orbs.
-
-
 
 Icon inspired by [Vesktop](https://vesktop.dev/).
