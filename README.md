@@ -23,11 +23,6 @@
   <img src="public/screenshot.png" alt="DCQuestCompleter app screenshot">
 </p>
 
-## 🎯 Future plans
-- Add Linux support
-- Make GUI more visual appealing
-- Add new Discord application detection 
-
 ## ✨ Features
 
 - Automatic game list fetching from Discord API
@@ -65,6 +60,11 @@ Just delete whole folder which you previously downloaded and delete folder from 
 - C++
 - Qt
 - CMake
+
+## 🎯 Future plans
+- Add Linux support
+- Make GUI more visual appealing
+- Add new Discord application detection
 
 ## ⚠️ Disclaimer
 
