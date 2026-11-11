@@ -28,7 +28,7 @@
 
 #include "ButtonDelegate.h"
 
-static const QUrl kDetectableUrl("https://discordapp.com/api/v9/applications/detectable");
+static const QUrl kDetectableUrl("https://discord.com/api/v10/applications/detectable");
 
 MainWindow::MainWindow(QWidget* parent) : QMainWindow(parent) {
     m_darkMode = isSystemDarkMode();
